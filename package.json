@@ -4,6 +4,7 @@
   "description": "MongoDB Proxy for thirdparty driver",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js -u mongodb://user-db-edge-replica/users -p 61000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
