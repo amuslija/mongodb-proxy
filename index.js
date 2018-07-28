@@ -11,7 +11,7 @@ var yargs = require('yargs')
   .alias('p', 'port')
   // Number of processes to use in the execution
   .describe('u', 'Connection url to mongodb')
-  .default('u', 'mongodb://localhost:27017/test')
+  .default('u', 'mongodb://192.168.56.157:27021/users')
   .alias('u', 'uri')
   // Run all the processes locally
   .describe('b', 'Bind to host interface')

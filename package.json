@@ -4,7 +4,7 @@
   "description": "MongoDB Proxy for thirdparty driver",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js -u mongodb://user-db-edge-replica/users -p 61000",
+    "start": "node index.js -u mongodb://192.168.56.157:27021/users -p 61000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +19,7 @@
   ],
   "dependencies": {
       "mongodb": "^3.1.1"
-    , "mongodb-core": "^3.1.0"
+    , "mongodb-core": "^1.1"
     , "yargs": "^12.0.1"
   },
   "devDependencies": {
